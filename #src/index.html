@@ -4,19 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gulp</title>
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
-  @@include('_header.html')
-  <main class="main">
-    <h1 class="main-header">
-      Основная часть Сайта - 1
-    </h1>
-    <img src="./img/Cruze.png" alt="">
-    <h2 class="main">
-      Вторая основная часть
-    </h2>
-  </main>
-  <script src="/js/script.js"></script>
+  <!-- header -->
+  <header class="container header">
+    <div class="header-top">
+      <img src="./img/header/logo.png" alt="Логотип Евклид" class="header-top__logo">
+      <div class="header-top-right-part">
+        <nav class="header-top-nav">
+          <ul class="header-top-nav__list">
+            <li class="header-top-nav__list_item item_about">О нас</li>
+            <li class="header-top-nav__list_item item_progects">Проекты</li>
+            <li class="header-top-nav__list_item item_stages">Этапы</li>
+            <li class="header-top-nav__list_item item_feedback">Отзывы</li>
+            <li class="header-top-nav__list_item item_contacts">Контакты</li>
+          </ul>
+        </nav>
+        <a href="" class="header-find"></a>
+      </div>
+    </div>
+    <div class="section-container header-bottom ">
+      <h1 class="header-bottom__title">
+        Проектные решения любой сложности
+      </h1>
+      <p class="header-bottom__description">
+        Есть над чем задуматься: базовые сценарии поведения
+        пользователей и по сей день остаются уделом проектантов
+      </p>
+      <button class="orange-button header-bottom__button">
+        Заказать расчёт
+      </button>
+    </div>
+  </header>
+
+  <!-- abbout us -->
+  <section class="container ">
+    <div class="section-container section-about-us">
+      <h2 class="article-header section-about-us__header">О нас</h2>
+      <p class="article-description section-about-us__description ">Также как перспективное планирование создаёт необходимость включения в
+        производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей
+        масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены
+        отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и
+        внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип
+        <span class="section-about-us__description_tultip"></span>
+        будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных
+        задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует
+        повышению качества экспериментов.
+      </p>
+      <div class="article-row section-about-us__row">
+        <div class="section-about-us__row_column row-column-left">
+          <div class="row-column-left-bottom">
+            <div class="row-column-left-bottom__description">
+              Принимая во внимание показатели успешности, перспективное планирование
+              способствует подготовке и  реализации новых принципов.
+            </div>
+            <button class="orange-button transparent-button row-column-left-bottom__button">
+              Подробнее
+            </button>
+          </div>
+        </div>
+        <div class="section-about-us__row_column row-column-right">
+          right
+          <div class="row-column-right__top">
+            top
+          </div>
+          <div class="row-column-right__bottom">
+            bottom
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>

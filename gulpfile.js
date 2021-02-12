@@ -30,6 +30,7 @@ let path={
     js:    source_folder+"/js/script.js",
     img:   source_folder+"/img/**/*.{jpg,jpeg,png,svg,gif,ico,webp}",
     fonts: source_folder+"/fonts/*.ttf",
+    norm_css: source_folder+"/scss/normalize.css", // путь к файлу normalize.css
   },
   // пути вывода
   build:{
@@ -70,6 +71,15 @@ function html() {
     // .pipe(webp_html())
     // копирование html файлов в выходную папаку
     .pipe(dest(path.build.html))
+    // рендеринг браузера
+    .pipe(browsersync.stream())
+};
+
+// Обработка normalize.css файлa
+function copy_norm_css() {
+  return src(path.src.norm_css)
+    // копирование normalize.css файла в выходную папаку
+    .pipe(dest(path.build.css))
     // рендеринг браузера
     .pipe(browsersync.stream())
 };
@@ -190,7 +200,7 @@ function watchFiles(params){
   //gulp.watch([path.watch.fonts], fonts)
 };
 
-let build = gulp.series(clean, gulp.parallel(images, fonts, js, css, html));
+let build = gulp.series(clean, copy_norm_css, gulp.parallel(images, fonts, js, css, html));
 let watch = gulp.parallel(build, watchFiles, brouserSync);
 
 exports.js      = js;

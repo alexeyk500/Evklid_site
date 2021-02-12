@@ -1,17 +1,274 @@
-body {
-  font-size: 15px;
-  // display: flex;
+/* Montserrat-Light - 300 */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('../fonts/Montserrat-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Montserrat-Light.woff') format('woff'); /* Modern Browsers */
+}
+/* Montserrat-Regular - 400 */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/Montserrat-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Montserrat-Regular.woff') format('woff'); /* Modern Browsers */
+}
+/* Montserrat-SemiBold - 600 */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('../fonts/Montserrat-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Montserrat-SemiBold.woff') format('woff'); /* Modern Browsers */
+}
+/* Montserrat-Bold - 700 */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/Montserrat-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Montserrat-Bold.woff') format('woff'); /* Modern Browsers */
+}
+/* Montserrat-ExtraBold - 800 */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: local(''),
+       url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Montserrat-ExtraBold.woff') format('woff'); /* Modern Browsers */
 }
 
-.header-header {
-  color: green;
-  @media (max-width: 767px) {
-    font-size: 15px;
+body {
+  font-family: Montserrat;
+  font-weight: 400;
+  color: #333333;
+  background-color: #E5E5E5;
+}
+// common styles
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  max-width: 1920px;
+}
+.section-container {
+  max-width: 1770px;
+  margin: 0 auto;
+}
+.article-header {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 59px;
+}
+.article-description {
+  font-size: 16px;
+  line-height: 32px;
+}
+.article-row {
+  display: flex;
+}
+.orange-button{
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FF9900;
+  border: none;
+}
+
+.transparent-button{
+  background-color: transparent;
+  border: solid 1px #FF9900;
+}
+
+// header
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.header-top__logo {
+  margin-left: 76px;
+  margin-top: 12px;
+  margin-bottom: 14px;
+}
+.header-top-right-part {
+display: flex;
+align-items: center;
+}
+.header-top-nav {
+  &__list {
+    display: flex;
+    list-style: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    &_item {
+      margin-right: 86px;
+    }
   }
 }
-.main-header {
-  color: blue;
-  @media (max-width: 767px) {
-    font-size: 15px;
+.item {
+
+  &_progects {
+    margin-right: 85px;
+  }
+  &_contacts {
+    margin-right: 71px;
   }
 }
+.header-find {
+  margin-right: 86px;
+  width: 26px;
+  height: 26px;
+  transform: translateY(1px);
+  background: url('../img/header/search.svg') center center no-repeat transparent;
+}
+.header-bottom {
+  padding-left: 78px;
+  padding-top: 103px;
+  padding-bottom: 92px;
+  background: url('../img/header/low-angle-photo-of-balconies-2462015\ 1.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+		&__title {
+      margin-top: 0;
+      margin-bottom: 21px;
+      width: 850px;
+      font-weight: 800;
+      font-size: 70.3742px;
+      line-height: 86px;
+      color: #FFFFFF;
+		}
+
+		&__description {
+      width: 800px;
+      margin-bottom: 97px;
+      font-weight: bold;
+      font-size: 23.45px;
+      line-height: 29px;
+      color: #FFFFFF;
+		}
+
+		&__button {
+      padding: 24px 37px 25px 40px;
+      font-weight: 700;
+      font-size: 23.46px;
+      line-height: 28.6px;
+		}
+}
+
+
+.section-about-us {
+
+		&__header {
+
+		}
+
+		&__description {
+
+
+			&_tultip {
+
+			}
+		}
+
+		&__row {
+
+			&_column {
+
+			}
+		}
+}
+.row-column-left {
+
+}
+.row-column-left-bottom__button {
+
+}
+.row-column-right {
+
+		&__top {
+		}
+
+		&__bottom {
+		}
+}
+
+.section-about-us {
+  margin-top: 100px;
+		&__header {
+      padding-top: 1px;
+      margin-left: 2px;
+      margin-bottom: 22px;
+		}
+
+		&__description {
+      width: 1235px;
+      line-height: 32px;
+      margin-bottom: 47px;
+			&_tultip {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        margin-left: 5px;
+        transform: translateY(4px);
+			}
+		}
+
+		&__row {
+      display: flex;
+      justify-content: space-between;
+			&_column {
+        width: calc(50% - 15px);
+			}
+		}
+}
+.row-column-left {
+  background: url('../img/about_us/worker.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-column-left-bottom {
+  margin-top: 450px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+		&__description {
+      width: 551px;
+      padding-left: 54px;
+      padding-top: 36px;
+      padding-bottom: 42px;
+      margin-right: 76px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 32px;
+      color: #FFFFFF;
+		}
+
+		&__button {
+      padding: 18px 37px;
+      max-height: 60px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+		}
+}
+.row-column-right {
+
+		&__top {
+		}
+
+		&__bottom {
+		}
+}
+
