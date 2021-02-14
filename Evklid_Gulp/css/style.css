@@ -233,6 +233,9 @@ body {
 
 .section-about-us__row_column {
   width: calc(50% - 15px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .row-column-left {
@@ -242,7 +245,7 @@ body {
 }
 
 .row-column-left-bottom {
-  margin-top: 450px;
+  margin-top: 449px;
   background: rgba(0, 0, 0, 0.5);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -250,6 +253,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .row-column-left-bottom__description {
@@ -270,4 +276,64 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+}
+
+.row-column-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.row-column-right__item {
+  padding: 68px 110px 68px 300px;
+  border: 1px solid #333333;
+  color: #333333;
+  position: relative;
+}
+
+.row-column-right__item_top:before {
+  position: absolute;
+  top: 72px;
+  left: 63px;
+  width: 180px;
+  height: 140px;
+  content: '';
+  display: block;
+  background-image: url("../img/about_us/package.svg");
+  background-repeat: no-repeat;
+}
+
+.row-column-right__item_bottom:before {
+  position: absolute;
+  top: 59.0px;
+  left: 62px;
+  width: 180px;
+  height: 160px;
+  content: '';
+  display: block;
+  background-image: url("../img/about_us/gear.svg");
+  background-repeat: no-repeat;
+}
+
+.row-column-right-item-title {
+  -webkit-transform: translateY(2px);
+      -ms-transform: translateY(2px);
+          transform: translateY(2px);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.row-column-right-item-desription {
+  -webkit-transform: translateY(8px);
+      -ms-transform: translateY(8px);
+          transform: translateY(8px);
+  font-size: 16px;
+  line-height: 33px;
 }

@@ -167,43 +167,6 @@ align-items: center;
 		}
 }
 
-
-.section-about-us {
-
-		&__header {
-
-		}
-
-		&__description {
-
-
-			&_tultip {
-
-			}
-		}
-
-		&__row {
-
-			&_column {
-
-			}
-		}
-}
-.row-column-left {
-
-}
-.row-column-left-bottom__button {
-
-}
-.row-column-right {
-
-		&__top {
-		}
-
-		&__bottom {
-		}
-}
-
 .section-about-us {
   margin-top: 100px;
 		&__header {
@@ -230,6 +193,7 @@ align-items: center;
       justify-content: space-between;
 			&_column {
         width: calc(50% - 15px);
+        display: flex;
 			}
 		}
 }
@@ -239,10 +203,11 @@ align-items: center;
   background-size: cover;
 }
 .row-column-left-bottom {
-  margin-top: 450px;
+  margin-top: 449px;
   background: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
+  flex-grow: 1;
 		&__description {
       width: 551px;
       padding-left: 54px;
@@ -263,12 +228,51 @@ align-items: center;
       line-height: 20px;
 		}
 }
+
+///////////////////////////////////////////////////////////////////@at-root
+
 .row-column-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-		&__top {
-		}
+  &__item {
+    padding: 68px 110px 68px 300px;
+    border: 1px solid #333333;
+    color: #333333;
+    position: relative;
+    &_top:before {
+      position: absolute;
+      top: 72px;
+      left: 63px;
+      width: 180px;
+      height: 140px;
+      content:'';
+      display: block;
+      background-image: url('../img/about_us/package.svg');
+      background-repeat: no-repeat;
+    }
 
-		&__bottom {
-		}
+    &_bottom:before {
+      position: absolute;
+      top: 59.0px;
+      left: 62px;
+      width: 180px;
+      height: 160px;
+      content:'';
+      display: block;
+      background-image: url('../img/about_us/gear.svg');
+      background-repeat: no-repeat;
+    }
+  }
 }
-
+.row-column-right-item-title {
+  transform: translateY(2px);
+  font-size: 24px;
+  font-weight: 700;
+}
+.row-column-right-item-desription {
+  transform: translateY(8px);
+  font-size: 16px;
+  line-height: 33px;
+}
