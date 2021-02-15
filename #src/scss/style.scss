@@ -276,3 +276,74 @@ align-items: center;
   font-size: 16px;
   line-height: 33px;
 }
+///////////////////////////////////////////////////////////////
+.section-how-we-works {
+  padding-top: 101px;
+		&__header {
+      letter-spacing: 0.3px;
+      padding-bottom: 48.0px;
+      margin-left: -2px;
+		}
+}
+
+.section-how-we-works-nav-list {
+  display: flex;
+  list-style: none;
+  margin-bottom: 47px;
+  &__item {padding-left: 2px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 86.8px;
+    &_active {
+      color: #FF9900;
+    }
+  }
+}
+
+.section-how-we-works-row {
+  display: flex;
+}
+.section-how-we-works-row-left-column {
+    width: 50%;
+		&__title {
+      margin-left: 2px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 4px;
+		}
+
+		&__article {
+      margin-left: 2px;
+      padding-right: 120px;
+      font-size: 16px;
+      line-height: 32px;
+      margin-bottom: 65px;
+		}
+
+		&__orange-button {
+      margin-left: 2px;
+      margin-right: 27px;
+      padding: 23px 38px 18px 38px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+		}
+
+		&__gray-button {
+      padding: 21px 37px 15px 35px;
+      font-size: 16px;
+      line-height: 20px;
+		}
+}
+.section-how-we-works-row-right-column {
+  flex-grow: 1;
+  margin-left: 18px;
+  margin-top: 10px;
+  margin-right: -1px;
+  background-image: url('../img/how_we_works/how_we_works.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
