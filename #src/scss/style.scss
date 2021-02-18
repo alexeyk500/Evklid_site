@@ -61,6 +61,7 @@ a {
  }
 .container {
   max-width: 1920px;
+  margin: 0 auto;
 }
 .section-container {
   max-width: 1770px;
@@ -186,10 +187,11 @@ align-items: center;
 		&__header {
       padding-top: 1px;
       margin-left: 2px;
-      margin-bottom: 22px;
+      margin-bottom: 24px;
 		}
 		&__description {
       width: 1235px;
+      margin-top: 4px;
       line-height: 32px;
       margin-bottom: 47px;
 			&_tultip {
@@ -246,14 +248,14 @@ align-items: center;
   justify-content: space-between;
 
   &__item {
-    padding: 68px 110px 68px 300px;
+    padding: 65px 110px 67px 299px;
     border: 1px solid #333333;
     color: #333333;
     position: relative;
     &_top:before {
       position: absolute;
-      top: 72px;
-      left: 63px;
+      top: 71px;
+      left: 62px;
       width: 180px;
       height: 140px;
       content:'';
@@ -264,7 +266,7 @@ align-items: center;
 
     &_bottom:before {
       position: absolute;
-      top: 59.0px;
+      top: 53.0px;
       left: 62px;
       width: 180px;
       height: 160px;
@@ -276,14 +278,16 @@ align-items: center;
   }
 }
 .row-column-right-item-title {
-  transform: translateY(2px);
+  padding-top: 3px;
+  margin-left: -2px;
   font-size: 24px;
   font-weight: 700;
 }
 .row-column-right-item-desription {
-  transform: translateY(8px);
+  margin-left: -1px;
+  padding-top: 6px;
   font-size: 16px;
-  line-height: 33px;
+  line-height: 32px;
 }
 
 // section-how-we-works ///////////////////////////////////////////////////////////////
@@ -318,7 +322,7 @@ align-items: center;
       font-weight: 700;
       font-size: 24px;
       line-height: 32px;
-      margin-bottom: 4px;
+      margin-bottom: 2px;
 		}
 		&__article {
       margin-left: 2px;
@@ -327,6 +331,7 @@ align-items: center;
       line-height: 32px;
       margin-bottom: 65px;
 		}
+
 		&__orange-button {
       margin-left: 2px;
       margin-right: 27px;
@@ -435,9 +440,9 @@ align-items: center;
 			}
 
 			&_description-block {
-        padding-top: 127px;
-        padding-left: 203px;
-        padding-right: 75px;
+        padding-top: 128px;
+        padding-left: 200px;
+        padding-right: 80px;
 			}
 		}
 }
