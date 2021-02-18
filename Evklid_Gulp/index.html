@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gulp</title>
+    <title>Evklid</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
@@ -11,15 +11,27 @@
   <!-- header -->
   <header class="container container-header header">
     <div class="header-top">
-      <img src="./img/header/logo.png" alt="Логотип Евклид" class="header-top__logo">
+      <a href="#">
+        <img src="./img/header/logo.png" alt="Логотип Евклид" class="header-top__logo">
+      </a>
       <div class="header-top-right-part">
         <nav class="header-top-nav">
           <ul class="header-top-nav__list">
-            <li class="header-top-nav__list_item item_about">О нас</li>
-            <li class="header-top-nav__list_item item_progects">Проекты</li>
-            <li class="header-top-nav__list_item item_stages">Этапы</li>
-            <li class="header-top-nav__list_item item_feedback">Отзывы</li>
-            <li class="header-top-nav__list_item item_contacts">Контакты</li>
+            <li class="header-top-nav__list_item">
+              <a class="header-top-nav-list__link" href="#">О нас</a>
+            </li>
+            <li class="header-top-nav__list_item item_progects">
+              <a class="header-top-nav-list__link" href="#">Проекты</a>
+            </li>
+            <li class="header-top-nav__list_item">
+              <a class="header-top-nav-list__link" href="#">Этапы</a>
+            </li>
+            <li class="header-top-nav__list_item">
+              <a class="header-top-nav-list__link" href="#">Отзывы</a>
+            </li>
+            <li class="header-top-nav__list_item">
+              <a class="header-top-nav-list__link item_contacts" href="#">Контакты</a>
+            </li>
           </ul>
         </nav>
         <a href="" class="header-find"></a>
@@ -141,34 +153,34 @@
       </h2>
       <ul class="section-questions-list">
         <li class="section-questions-list__item">
-          <div class="section-questions-list-item__text">
+          <a class="section-questions-list-item__text" href="#">
             Из чего формируется конечная стоимость проекта?
-          </div>
+          </a>
         </li>
         <li class="section-questions-list__item">
-          <div class="section-questions-list-item__text">
+          <a class="section-questions-list-item__text" href="#">
             <div>
               У меня есть свой проект. Сможем ли мы его доработать <span class="grey-text">/</span> реализовать?
             </div>
-          </div>
+          </a>
         </li>
         <li class="section-questions-list__item">
-          <div class="section-questions-list-item__text">
+          <a class="section-questions-list-item__text" href="#">
             Я выбираю между разными компаниями. В чём ваше отличие?
-          </div>
+          </a>
         </li>
         <li class="section-questions-list__item">
-          <div class="section-questions-list-item__text">
+          <a class="section-questions-list-item__text" href="#">
             <div>
               Могу ли я делегировать вам работу <span class="grey-text">/</span>
             согласование с подрядчиком <span class="grey-text">/</span> организацией?
             </div>
-          </div>
+          </a>
         </li>
         <li class="section-questions-list__item">
-          <div class="section-questions-list-item__text">
+          <a class="section-questions-list-item__text" href="#">
             Могу ли я вернуть деньги на каком-либо из этапов работ?
-          </div>
+          </a>
         </li>
       </ul>
     </div>
@@ -180,18 +192,35 @@
       <img src="./img/footer/logo_footer.png" alt="Логотип Евклид">
       <nav>
         <ul class="select-action-block__nav-list">
-          <li class="footer-nav-list__item">О нас</li>
-          <li class="footer-nav-list__item">Проекты</li>
-          <li class="footer-nav-list__item">Отзывы</li>
-          <li class="footer-nav-list__item">Договор оферты</li>
-          <li class="footer-nav-list__item">Договор подряда</li>
-          <li class="footer-nav-list__item">Конфиденциальность</li>
-          <li class="footer-nav-list__item">Партнёрское соглашение</li>
+          <li class="footer-nav-list__item">
+            <a class="footer-nav-list-item__link" href="#">О нас</a>
+          </li>
+          <li class="footer-nav-list__item">
+            <a class="footer-nav-list-item__link" href="#">Проекты</a>
+          </li>
+          <li class="footer-nav-list__item">
+            <a class="footer-nav-list-item__link" href="#">Отзывы</a>
+          </li>
+          <li class="footer-nav-list__item">
+            <a class="footer-nav-list-item__link" href="#">Договор оферты</a>
+          </li>
+          <li class="footer-nav-list__item">
+            <a class="footer-nav-list-item__link" href="#">Договор подряда</a>
+          </li>
+          <li class="footer-nav-list__item">
+            <a class="footer-nav-list-item__link" href="#">Конфиденциальность</a>
+          </li>
+          <li class="footer-nav-list__item">
+            <a class="footer-nav-list-item__link" href="#">Партнёрское соглашение</a>
+          </li>
         </ul>
       <div class="select-action-block__social-media-links">
-        <span class="social-media-links__fb"></span>
+        <a class="social-media-links__fb" href="#"></a>
+        <a class="social-media-links__vk" href="#"></a>
+        <a class="social-media-links__inst" href="#"></a>
+        <!-- <span class="social-media-links__fb"></span>
         <span class="social-media-links__vk"></span>
-        <span class="social-media-links__inst"></span>
+        <span class="social-media-links__inst"></span> -->
       </div>
       </nav>
     </div>
