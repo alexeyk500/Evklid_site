@@ -10,97 +10,115 @@
 <body>
 
   <!-- header -->
-  <header class="container container-header header">
-    <div class="header-top">
-      <a href="#">
-        <img src="./img/header/logo.png" alt="Логотип Евклид" class="header-top__logo">
-      </a>
-      <div class="header-top-right-part">
-        <nav class="header-top-nav">
-          <ul class="header-top-nav__list">
-            <li class="header-top-nav__list_item">
-              <a class="header-top-nav-list__link" href="#">О нас</a>
-            </li>
-            <li class="header-top-nav__list_item item_progects">
-              <a class="header-top-nav-list__link" href="#">Проекты</a>
-            </li>
-            <li class="header-top-nav__list_item">
-              <a class="header-top-nav-list__link" href="#">Этапы</a>
-            </li>
-            <li class="header-top-nav__list_item">
-              <a class="header-top-nav-list__link" href="#">Отзывы</a>
-            </li>
-            <li class="header-top-nav__list_item">
-              <a class="header-top-nav-list__link item_contacts" href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <a href="" class="header-find"></a>
+  <header>
+    <div class="container">
+      <div class="container-header header-content">
+        <a href="#">
+          <img src="./img/header/logo.png" alt="Логотип Евклид" class="header-content__logo">
+        </a>
+        <div class="header-content-right-part">
+          <nav class="header-content-nav">
+            <ul class="header-content-nav__list">
+              <li class="header-content-nav__list_item">
+                <a class="header-content-nav-list__link" href="#">О нас</a>
+              </li>
+              <li class="header-content-nav__list_item item_progects">
+                <a class="header-content-nav-list__link" href="#">Проекты</a>
+              </li>
+              <li class="header-content-nav__list_item">
+                <a class="header-content-nav-list__link" href="#">Этапы</a>
+              </li>
+              <li class="header-content-nav__list_item">
+                <a class="header-content-nav-list__link" href="#">Отзывы</a>
+              </li>
+              <li class="header-content-nav__list_item">
+                <a class="header-content-nav-list__link item_contacts" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- <a href="" class="header-find"></a> -->
+
+          <form action="/">
+            <input type="hidden" id="find" name="find" value="">
+            <button class=""header-find" ></button>
+          </form>
+
+        </div>
       </div>
-    </div>
-    <div class="section-container header-bottom">
-      <h1 class="header-bottom__title">
-        Проектные решения любой сложности
-      </h1>
-      <p class="header-bottom__description">
-        Есть над чем задуматься: базовые сценарии поведения
-        пользователей и по сей день остаются уделом проектантов
-      </p>
-      <button class="orange-button header-bottom__button">
-        Заказать расчёт
-      </button>
     </div>
   </header>
 
-  <!-- abbout us -->
-  <section class="container ">
-    <div class="section-container section-about-us">
-      <h2 class="article-header section-about-us__header">О нас</h2>
-      <p class="article-description section-about-us__description">Также как перспективное планирование создаёт необходимость включения в
-        производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей
-        масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены
-        отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и
-        внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип
-        <span class="section-about-us__description_tultip"></span>
-        будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных
-        задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует
-        повышению качества экспериментов.
-      </p>
-      <div class="article-row section-about-us__row">
-        <div class="section-about-us__row_column row-column-left">
-          <div class="row-column-left-bottom">
-            <div class="row-column-left-bottom__description">
-              Принимая во внимание показатели успешности, перспективное планирование
-              способствует подготовке и  реализации новых принципов.
-            </div>
-            <button class="orange-button transparent-button row-column-left-bottom__button">
-              Подробнее
-            </button>
-          </div>
-        </div>
-        <div class="section-about-us__row_column">
-          <div class="row-column-right">
-            <div class="row-column-right__item">
-              <div class="row-column-right__item_top">
-                <p class="row-column-right-item-title">
-                  Консультация с широким активом
-                </p>
-                <p class="row-column-right-item-desription">
-                  А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для
-                  как самодостаточных, так и внешне зависимых концептуальных решений.
-                </p>
-              </div>
-            </div>
+  <!-- section-solution -->
+  <section>
+    <div class="container">
+      <div class="section-container section-solution-content">
+        <h1 class="section-solution-content__title">
+          Проектные решения любой сложности
+        </h1>
+        <p class="section-solution-content__description">
+          Есть над чем задуматься: базовые сценарии поведения
+          пользователей и по сей день остаются уделом проектантов
+        </p>
+        <button class="orange-button section-solution-content__button">
+          Заказать расчёт
+        </button>
+      </div>
+    </div>
+  </section>
 
-            <div class="row-column-right__item">
-              <div class="row-column-right__item_bottom">
-                <p class="row-column-right-item-title">
-                  В своём стремлении повысить
-                </p>
-                <p class="row-column-right-item-desription">
-                  Качество жизни, они забывают, что сплочённость команды профессионалов представляет
-                  собой интересный эксперимент проверки прогресса профессионального сообщества.
-                </p>
+
+  <!-- about us -->
+  <section>
+    <div class="container">
+      <div class="section-container section-about-us">
+        <h2 class="article-header section-about-us__header">О нас</h2>
+        <p class="article-description section-about-us__description">Также как перспективное планирование создаёт необходимость включения в
+          производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей
+          масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены
+          отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и
+          внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип
+          <span class="section-about-us__description_tultip"></span>
+          будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных
+          задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует
+          повышению качества экспериментов.
+        </p>
+        <div class="article-row section-about-us__row">
+          <div class="section-about-us__row_column row-column-left">
+            <div class="row-column-left-bottom">
+              <div class="row-column-left-bottom__description">
+                Принимая во внимание показатели успешности, перспективное планирование
+                способствует подготовке и  реализации новых принципов.
+              </div>
+              <button class="orange-button transparent-button row-column-left-bottom__button">
+                Подробнее
+              </button>
+            </div>
+          </div>
+          <div class="section-about-us__row_column">
+            <div class="row-column-right">
+              <div class="row-column-right__item">
+                <div class="row-column-right__item_top">
+                  <p class="row-column-right-item-title">
+                    Консультация с широким активом
+                  </p>
+                  <p class="row-column-right-item-desription">
+                    А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для
+                    как самодостаточных, так и внешне зависимых концептуальных решений.
+                  </p>
+                </div>
+              </div>
+
+              <div class="row-column-right__item">
+                <div class="row-column-right__item_bottom">
+                  <p class="row-column-right-item-title">
+                    В своём стремлении повысить
+                  </p>
+                  <p class="row-column-right-item-desription">
+                    Качество жизни, они забывают, что сплочённость команды профессионалов представляет
+                    собой интересный эксперимент проверки прогресса профессионального сообщества.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -110,142 +128,150 @@
   </section>
 
   <!-- how we works -->
-  <section class="container">
-    <div class="section-container section-how-we-works">
-      <h2 class="article-header section-how-we-works__header">Как мы работаем</h2>
-      <nav class="section-how-we-works-nav">
-        <ul class="section-how-we-works-nav-list">
-          <li class="section-how-we-works-nav-list__item section-how-we-works-nav-list__item_active">1 шаг</li>
-          <li class="section-how-we-works-nav-list__item">2 шаг</li>
-          <li class="section-how-we-works-nav-list__item">3 шаг</li>
-          <li class="section-how-we-works-nav-list__item">4 шаг</li>
-        </ul>
-      <div class="section-how-we-works-row">
-        <div class="section-how-we-works-row-left-column">
-          <div class="section-how-we-works-row-left-column__title">Проводим консультацию</div>
-          <div class="section-how-we-works-row-left-column__article">
-            Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями.
-            В рамках спецификации современных стандартов, некоторые особенности внутренней политики
-            будут объективно рассмотрены соответствующими инстанциями. А также представители современных
-            социальных резервов, инициированные исключительно синтетически, ограничены исключительно
-            образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников,
-            современные исследования подвергнуты целой серии независимых исследований.
-            Кстати,  стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно
-            интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны к ответу.
+  <section>
+    <div class="container">
+      <div class="section-container section-how-we-works">
+        <h2 class="article-header section-how-we-works__header">Как мы работаем</h2>
+        <nav class="section-how-we-works-nav">
+          <ul class="section-how-we-works-nav-list">
+            <li class="section-how-we-works-nav-list__item section-how-we-works-nav-list__item_active">1 шаг</li>
+            <li class="section-how-we-works-nav-list__item">2 шаг</li>
+            <li class="section-how-we-works-nav-list__item">3 шаг</li>
+            <li class="section-how-we-works-nav-list__item">4 шаг</li>
+          </ul>
+        <div class="section-how-we-works-row">
+          <div class="section-how-we-works-row-left-column">
+            <div class="section-how-we-works-row-left-column__title">Проводим консультацию</div>
+            <div class="section-how-we-works-row-left-column__article">
+              Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями.
+              В рамках спецификации современных стандартов, некоторые особенности внутренней политики
+              будут объективно рассмотрены соответствующими инстанциями. А также представители современных
+              социальных резервов, инициированные исключительно синтетически, ограничены исключительно
+              образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников,
+              современные исследования подвергнуты целой серии независимых исследований.
+              Кстати,  стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно
+              интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны к ответу.
+            </div>
+            <button class="orange-button section-how-we-works-row-left-column__orange-button">
+              Подробнее
+            </button>
+            <button class="gray-button transparent-button section-how-we-works-row-left-column__gray-button">
+              Договор
+            </button>
           </div>
-          <button class="orange-button section-how-we-works-row-left-column__orange-button">
-            Подробнее
-          </button>
-          <button class="gray-button transparent-button section-how-we-works-row-left-column__gray-button">
-            Договор
-          </button>
+          <div class="section-how-we-works-row-right-column">&nbsp;</div>
         </div>
-        <div class="section-how-we-works-row-right-column">&nbsp;</div>
+        </nav>
       </div>
-      </nav>
     </div>
   </section>
 
   <!-- questions -->
-  <section class="container">
-    <div class="section-container section-questions">
-      <h2 class="article-header section-questions__header">
-          Часто задаваемые вопросы
-      </h2>
-      <ul class="section-questions-list">
-        <li class="section-questions-list__item">
-          <a class="section-questions-list-item__text" href="#">
-            Из чего формируется конечная стоимость проекта?
-          </a>
-        </li>
-        <li class="section-questions-list__item">
-          <a class="section-questions-list-item__text" href="#">
-            <div>
-              У меня есть свой проект. Сможем ли мы его доработать <span class="grey-text">/</span> реализовать?
-            </div>
-          </a>
-        </li>
-        <li class="section-questions-list__item">
-          <a class="section-questions-list-item__text" href="#">
-            Я выбираю между разными компаниями. В чём ваше отличие?
-          </a>
-        </li>
-        <li class="section-questions-list__item">
-          <a class="section-questions-list-item__text" href="#">
-            <div>
-              Могу ли я делегировать вам работу <span class="grey-text">/</span>
-            согласование с подрядчиком <span class="grey-text">/</span> организацией?
-            </div>
-          </a>
-        </li>
-        <li class="section-questions-list__item">
-          <a class="section-questions-list-item__text" href="#">
-            Могу ли я вернуть деньги на каком-либо из этапов работ?
-          </a>
-        </li>
-      </ul>
+  <section>
+    <div class="container">
+      <div class="section-container section-questions">
+        <h2 class="article-header section-questions__header">
+            Часто задаваемые вопросы
+        </h2>
+        <ul class="section-questions-list">
+          <li class="section-questions-list__item">
+            <a class="section-questions-list-item__text" href="#">
+              Из чего формируется конечная стоимость проекта?
+            </a>
+          </li>
+          <li class="section-questions-list__item">
+            <a class="section-questions-list-item__text" href="#">
+              <div>
+                У меня есть свой проект. Сможем ли мы его доработать <span class="grey-text">/</span> реализовать?
+              </div>
+            </a>
+          </li>
+          <li class="section-questions-list__item">
+            <a class="section-questions-list-item__text" href="#">
+              Я выбираю между разными компаниями. В чём ваше отличие?
+            </a>
+          </li>
+          <li class="section-questions-list__item">
+            <a class="section-questions-list-item__text" href="#">
+              <div>
+                Могу ли я делегировать вам работу <span class="grey-text">/</span>
+              согласование с подрядчиком <span class="grey-text">/</span> организацией?
+              </div>
+            </a>
+          </li>
+          <li class="section-questions-list__item">
+            <a class="section-questions-list-item__text" href="#">
+              Могу ли я вернуть деньги на каком-либо из этапов работ?
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <!-- footer -->
-  <footer class="container container-footer">
-    <div class="container-footer__column container-footer__column_select-action-block">
-      <img src="./img/footer/logo_footer.png" alt="Логотип Евклид">
-      <nav>
-        <ul class="select-action-block__nav-list">
-          <li class="footer-nav-list__item">
-            <a class="footer-nav-list-item__link" href="#">О нас</a>
-          </li>
-          <li class="footer-nav-list__item">
-            <a class="footer-nav-list-item__link" href="#">Проекты</a>
-          </li>
-          <li class="footer-nav-list__item">
-            <a class="footer-nav-list-item__link" href="#">Отзывы</a>
-          </li>
-          <li class="footer-nav-list__item">
-            <a class="footer-nav-list-item__link" href="#">Договор оферты</a>
-          </li>
-          <li class="footer-nav-list__item">
-            <a class="footer-nav-list-item__link" href="#">Договор подряда</a>
-          </li>
-          <li class="footer-nav-list__item">
-            <a class="footer-nav-list-item__link" href="#">Конфиденциальность</a>
-          </li>
-          <li class="footer-nav-list__item">
-            <a class="footer-nav-list-item__link" href="#">Партнёрское соглашение</a>
-          </li>
-        </ul>
-      <div class="select-action-block__social-media-links">
-        <a class="social-media-links__fb" href="#"></a>
-        <a class="social-media-links__vk" href="#"></a>
-        <a class="social-media-links__inst" href="#"></a>
-      </div>
-      </nav>
-    </div>
-    <div class="container-footer__column container-footer__column_application-block">
-      <h2 class="footer-application-block__title">Оставить заявку</h2>
-      <form action="" class="footer-application-block__form">
-        <div class="input-container">
-          <input type="text" name="user-name" class="footer-application-block-form__user-name" placeholder="Фамилия, имя и отчество*">
+  <footer>
+    <div class="container">
+      <div class="container-footer">
+        <div class="container-footer__column container-footer__column_select-action-block">
+          <img src="./img/footer/logo_footer.png" alt="Логотип Евклид">
+          <nav>
+            <ul class="select-action-block__nav-list">
+              <li class="footer-nav-list__item">
+                <a class="footer-nav-list-item__link" href="#">О нас</a>
+              </li>
+              <li class="footer-nav-list__item">
+                <a class="footer-nav-list-item__link" href="#">Проекты</a>
+              </li>
+              <li class="footer-nav-list__item">
+                <a class="footer-nav-list-item__link" href="#">Отзывы</a>
+              </li>
+              <li class="footer-nav-list__item">
+                <a class="footer-nav-list-item__link" href="#">Договор оферты</a>
+              </li>
+              <li class="footer-nav-list__item">
+                <a class="footer-nav-list-item__link" href="#">Договор подряда</a>
+              </li>
+              <li class="footer-nav-list__item">
+                <a class="footer-nav-list-item__link" href="#">Конфиденциальность</a>
+              </li>
+              <li class="footer-nav-list__item">
+                <a class="footer-nav-list-item__link" href="#">Партнёрское соглашение</a>
+              </li>
+            </ul>
+          <div class="select-action-block__social-media-links">
+            <a class="social-media-links__fb" href="#"></a>
+            <a class="social-media-links__vk" href="#"></a>
+            <a class="social-media-links__inst" href="#"></a>
+          </div>
+          </nav>
         </div>
-        <div class="input-container">
-          <input type="email" name="user-email" class="footer-application-block-form__user-email" placeholder="E-mail*">
+        <div class="container-footer__column container-footer__column_application-block">
+          <h2 class="footer-application-block__title">Оставить заявку</h2>
+          <form action="" class="footer-application-block__form">
+            <div class="input-container">
+              <input type="text" name="user-name" class="footer-application-block-form__user-name" placeholder="Фамилия, имя и отчество*">
+            </div>
+            <div class="input-container">
+              <input type="email" name="user-email" class="footer-application-block-form__user-email" placeholder="E-mail*">
+            </div>
+            <textarea name="user-message" class="footer-application-block-form__user-message" placeholder="Сообщение"></textarea>
+            <div class="footer-application-block__action-row">
+              <button class="orange-button footer-application-button">Отправить данные</button>
+              <!-- <input class="footer-application-checkbox" type="checkbox" name="personal-data" value="true" checked> -->
+              <input type="checkbox" class="footer-application-checkbox" id="personal-data" name="personal-data" value="true" checked>
+              <label class="footer-application-checkbox-label" for="personal-data">Согласен на обработку данных</label>
+            </div>
+          </form>
         </div>
-        <textarea name="user-message" class="footer-application-block-form__user-message" placeholder="Сообщение"></textarea>
-        <div class="footer-application-block__action-row">
-          <button class="orange-button footer-application-button">Отправить данные</button>
-          <!-- <input class="footer-application-checkbox" type="checkbox" name="personal-data" value="true" checked> -->
-          <input type="checkbox" class="footer-application-checkbox" id="personal-data" name="personal-data" value="true" checked>
-          <label class="footer-application-checkbox-label" for="personal-data">Согласен на обработку данных</label>
+        <div class="container-footer__column container-footer__column_description-block">
+          <div class="description-block-text">
+            Высокий уровень вовлечения представителей целевой аудитории
+            является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное
+            мышление позволяет оценить значение модели развития. Таким образом, консультация с широким активом
+            обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов.
+          </div>
         </div>
-      </form>
-    </div>
-    <div class="container-footer__column container-footer__column_description-block">
-      <div class="description-block-text">
-        Высокий уровень вовлечения представителей целевой аудитории
-        является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное
-        мышление позволяет оценить значение модели развития. Таким образом, консультация с широким активом
-        обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов.
       </div>
     </div>
   </footer>

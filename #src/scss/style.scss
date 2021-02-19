@@ -96,22 +96,23 @@ a {
 }
 
 // header
-.header-top {
+.header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #ffffff;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
 }
-.header-top__logo {
-  margin-left: 75px;
+.header-content__logo {
+  margin-left: 67px;
   margin-top: 10px;
   margin-bottom: 11px;
 }
-.header-top-right-part {
+.header-content-right-part {
 display: flex;
 align-items: center;
 }
-.header-top-nav {
+.header-content-nav {
   &__list {
     display: flex;
     list-style: none;
@@ -122,7 +123,7 @@ align-items: center;
   }
 }
 
-.header-top-nav-list__link {
+.header-content-nav-list__link {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
@@ -137,17 +138,19 @@ align-items: center;
     margin-right: -15.5px;
   }
 }
+
+.item_contacts{
+margin-right: 84px;
+}
 .header-find {
-  margin-right: 87px;
+  margin-right: 78px;
   width: 26px;
   height: 26px;
   transform: translateY(1px);
   background: url('../img/header/search.svg') center center no-repeat transparent;
 }
-.container-header {
-  background: linear-gradient(180deg, rgba(229,229,229,1) 0%, rgba(255,255,255,1) 100%);
-}
-.header-bottom {
+
+.section-solution-content {
   padding-left: 80px;
   padding-top: 108px;
   padding-bottom: 92px;
@@ -187,13 +190,12 @@ align-items: center;
 		&__header {
       padding-top: 1px;
       margin-left: 2px;
-      margin-bottom: 24px;
+      margin-bottom: 22px;
 		}
 		&__description {
       width: 1235px;
-      margin-top: 4px;
       line-height: 32px;
-      margin-bottom: 47px;
+      margin-bottom: 43px;
 			&_tultip {
         display: inline-block;
         width: 16px;
@@ -292,7 +294,7 @@ align-items: center;
 
 // section-how-we-works ///////////////////////////////////////////////////////////////
 .section-how-we-works {
-  padding-top: 101px;
+  padding-top: 98px;
 		&__header {
       letter-spacing: 0.3px;
       padding-bottom: 48.0px;
@@ -329,7 +331,7 @@ align-items: center;
       padding-right: 120px;
       font-size: 16px;
       line-height: 32px;
-      margin-bottom: 65px;
+      margin-bottom: 60px;
 		}
 
 		&__orange-button {
@@ -430,19 +432,19 @@ align-items: center;
 		&__column {
         flex: 1 1 30%;
 			&_select-action-block {
-        padding-top: 48px;
-        padding-left: 74px;
+        padding-top: 47px;
+        padding-left: 68px;
 			}
 			&_application-block {
-        padding-top: 57px;
-        padding-left: 33px;
+        padding-top: 56px;
+        padding-left: 30px;
         letter-spacing: 0.35px;
 			}
 
 			&_description-block {
-        padding-top: 128px;
-        padding-left: 200px;
-        padding-right: 80px;
+        padding-top: 127px;
+        padding-left: 205px;
+        padding-right: 75px;
 			}
 		}
 }
@@ -460,7 +462,7 @@ align-items: center;
 }
 .footer-nav-list {
 		&__item {
-      padding-bottom: 15px;
+      padding-bottom: 14px;
 		}
 }
 
@@ -479,7 +481,7 @@ align-items: center;
       display: inline-block;
       width: 61px;
       height: 61px;
-      margin-right: 21px;
+      margin-right: 20px;
       content:'';
       background-repeat: no-repeat;
       background-image: url('../img/footer/fb.svg');
@@ -518,13 +520,13 @@ align-items: center;
   &__form {
     display: flex;
     flex-direction: column;
-    padding-right: 35px;
+    padding-right: 30px;
   }
 }
 .footer-application-block-form {
 
   &__user-name {
-    padding-top: 24px;
+    padding-top: 22px;
     padding-bottom: 19px;
     padding-left: 24px;
     margin-bottom: 24px;
@@ -536,7 +538,7 @@ align-items: center;
   }
 
   &__user-email {
-    padding-top: 23px;
+    padding-top: 25px;
     padding-bottom: 19px;
     padding-left: 24px;
     margin-bottom: 25px;
@@ -573,7 +575,6 @@ align-items: center;
   line-height: 20px;
 }
 
-
 .footer-application-checkbox {
   display: none;
 }
@@ -589,8 +590,8 @@ align-items: center;
 .footer-application-checkbox-label::before {
   display: inline-block;
   content: '';
-  margin-left: 1px;
-  margin-right: 3px;
+  margin-left: 2px;
+  margin-right: 4px;
   display: inline-block;
   width: 11px;
   height: 11px;

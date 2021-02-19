@@ -190,7 +190,7 @@ a {
   background-size: contain;
 }
 
-.header-bottom__title {
+.section-solution__title {
   margin-top: -3px;
   margin-left: -2px;
   margin-bottom: 19px;
@@ -201,7 +201,7 @@ a {
   color: #FFFFFF;
 }
 
-.header-bottom__description {
+.section-solution__description {
   margin-left: -2px;
   width: 800px;
   margin-bottom: 97px;
@@ -211,7 +211,7 @@ a {
   color: #FFFFFF;
 }
 
-.header-bottom__button {
+.section-solution__button {
   padding: 26px 35px 23px 38px;
   font-weight: 700;
   font-size: 23.46px;
