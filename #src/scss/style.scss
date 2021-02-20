@@ -135,18 +135,16 @@ align-items: center;
     margin-right: 85px;
   }
   &_contacts {
-    margin-right: -15.5px;
+    margin-right: -17px;
   }
 }
 
-.item_contacts{
-margin-right: 94px;
-}
-.header-find {
-  margin-right: 78px;
-  width: 26px;
-  height: 26px;
-  transform: translateY(1px);
+.header-find-button {
+  border: none;
+  transform: translateY(2px);
+  margin-right: 86px;
+  width: 28px;
+  height: 28px;
   background: url('../img/header/search.svg') center center no-repeat transparent;
 }
 
@@ -248,37 +246,8 @@ margin-right: 94px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  // &__item {
-  //   padding: 65px 110px 67px 299px;
-  //   border: 1px solid #333333;
-  //   color: #333333;
-  //   position: relative;
-  //   &_top:before {
-  //     position: absolute;
-  //     top: 71px;
-  //     left: 62px;
-  //     width: 180px;
-  //     height: 140px;
-  //     content:'';
-  //     display: block;
-  //     background-image: url('../img/about_us/package.svg');
-  //     background-repeat: no-repeat;
-  //   }
-
-  //   &_bottom:before {
-  //     position: absolute;
-  //     top: 53.0px;
-  //     left: 62px;
-  //     width: 180px;
-  //     height: 160px;
-  //     content:'';
-  //     display: block;
-  //     background-image: url('../img/about_us/gear.svg');
-  //     background-repeat: no-repeat;
-  //   }
-  // }
 }
+
 .row-column-right-list {
   &__item {
     position: relative;
@@ -384,6 +353,7 @@ margin-right: 94px;
       padding: 20px 37px 15px 35px;
       font-size: 16px;
       line-height: 20px;
+      border: 1px solid #333333;
 		}
 }
 .section-how-we-works-row-right-column {
@@ -638,7 +608,8 @@ margin-right: 94px;
 
 .footer-application-checkbox:checked + label::before {
   background-size: 100%;
-  background-image: url(./../img/footer/flag_agree.svg)
+  background-image: url(./../img/footer/flag_agree.svg);
+  background-repeat: no-repeat;
 }
 
 .description-block-text{

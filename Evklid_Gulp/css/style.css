@@ -164,20 +164,17 @@ a {
 }
 
 .item_contacts {
-  margin-right: -15.5px;
+  margin-right: -17px;
 }
 
-.item_contacts {
-  margin-right: 94px;
-}
-
-.header-find {
-  margin-right: 78px;
-  width: 26px;
-  height: 26px;
-  -webkit-transform: translateY(1px);
-      -ms-transform: translateY(1px);
-          transform: translateY(1px);
+.header-find-button {
+  border: none;
+  -webkit-transform: translateY(2px);
+      -ms-transform: translateY(2px);
+          transform: translateY(2px);
+  margin-right: 86px;
+  width: 28px;
+  height: 28px;
   background: url("../img/header/search.svg") center center no-repeat transparent;
 }
 
@@ -432,6 +429,7 @@ a {
   padding: 20px 37px 15px 35px;
   font-size: 16px;
   line-height: 20px;
+  border: 1px solid #333333;
 }
 
 .section-how-we-works-row-right-column {
@@ -711,6 +709,7 @@ a {
 .footer-application-checkbox:checked + label::before {
   background-size: 100%;
   background-image: url(./../img/footer/flag_agree.svg);
+  background-repeat: no-repeat;
 }
 
 .description-block-text {
