@@ -104,8 +104,8 @@ a {
   box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
 }
 .header-content__logo {
-  margin-left: 67px;
-  margin-top: 10px;
+  margin-left: 74px;
+  margin-top: 9px;
   margin-bottom: 11px;
 }
 .header-content-right-part {
@@ -116,7 +116,7 @@ align-items: center;
   &__list {
     display: flex;
     list-style: none;
-    margin-top: 2px;
+    margin-top: 1px;
     &_item {
       margin-right: 86px;
     }
@@ -140,7 +140,7 @@ align-items: center;
 }
 
 .item_contacts{
-margin-right: 84px;
+margin-right: 94px;
 }
 .header-find {
   margin-right: 78px;
@@ -170,7 +170,7 @@ margin-right: 84px;
 		&__description {
       margin-left: -2px;
       width: 800px;
-      margin-bottom: 97px;
+      margin-bottom: 101px;
       font-weight: bold;
       font-size: 23.45px;
       line-height: 29px;
@@ -249,11 +249,45 @@ margin-right: 84px;
   flex-direction: column;
   justify-content: space-between;
 
+  // &__item {
+  //   padding: 65px 110px 67px 299px;
+  //   border: 1px solid #333333;
+  //   color: #333333;
+  //   position: relative;
+  //   &_top:before {
+  //     position: absolute;
+  //     top: 71px;
+  //     left: 62px;
+  //     width: 180px;
+  //     height: 140px;
+  //     content:'';
+  //     display: block;
+  //     background-image: url('../img/about_us/package.svg');
+  //     background-repeat: no-repeat;
+  //   }
+
+  //   &_bottom:before {
+  //     position: absolute;
+  //     top: 53.0px;
+  //     left: 62px;
+  //     width: 180px;
+  //     height: 160px;
+  //     content:'';
+  //     display: block;
+  //     background-image: url('../img/about_us/gear.svg');
+  //     background-repeat: no-repeat;
+  //   }
+  // }
+}
+.row-column-right-list {
   &__item {
+    position: relative;
     padding: 65px 110px 67px 299px;
     border: 1px solid #333333;
     color: #333333;
-    position: relative;
+    list-style: none;
+    margin-bottom: 30px;
+
     &_top:before {
       position: absolute;
       top: 71px;
@@ -279,6 +313,10 @@ margin-right: 84px;
     }
   }
 }
+.row-column-right-list__item:last-child{
+  margin-bottom: 0;
+}
+
 .row-column-right-item-title {
   padding-top: 3px;
   margin-left: -2px;
@@ -297,7 +335,7 @@ margin-right: 84px;
   padding-top: 98px;
 		&__header {
       letter-spacing: 0.3px;
-      padding-bottom: 48.0px;
+      padding-bottom: 50.0px;
       margin-left: -2px;
 		}
 }
@@ -331,7 +369,7 @@ margin-right: 84px;
       padding-right: 120px;
       font-size: 16px;
       line-height: 32px;
-      margin-bottom: 60px;
+      margin-bottom: 65px;
 		}
 
 		&__orange-button {
@@ -367,7 +405,7 @@ margin-right: 84px;
 		&__header {
       letter-spacing: 0.3px;
       padding-bottom: 32.0px;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
 		}
     &__header:after {
       display: block;
@@ -377,7 +415,7 @@ margin-right: 84px;
       margin-right: 2px;
       margin-top: 38px;
       background: #CACACA;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
     }
 
 }
@@ -389,7 +427,7 @@ margin-right: 84px;
       font-weight: 700;
       font-size: 24px;
       line-height: 32px;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 		}
     &__item:after {
       display: block;
@@ -399,7 +437,7 @@ margin-right: 84px;
       margin-right: 2px;
       margin-top: 30px;
       background: #CACACA;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
     }
 }
 
@@ -427,13 +465,13 @@ margin-right: 84px;
 // footer /////////////////////////////////////////////////////////////////
 .container-footer {
   background: #222222;
-  margin-top: 69px;
+  margin-top: 70px;
   display: flex;
 		&__column {
         flex: 1 1 30%;
 			&_select-action-block {
         padding-top: 47px;
-        padding-left: 68px;
+        padding-left: 74px;
 			}
 			&_application-block {
         padding-top: 56px;
@@ -443,8 +481,8 @@ margin-right: 84px;
 
 			&_description-block {
         padding-top: 127px;
-        padding-left: 205px;
-        padding-right: 75px;
+        padding-left: 201px;
+        padding-right: 85px;
 			}
 		}
 }
@@ -462,7 +500,7 @@ margin-right: 84px;
 }
 .footer-nav-list {
 		&__item {
-      padding-bottom: 14px;
+      padding-bottom: 15px;
 		}
 }
 
