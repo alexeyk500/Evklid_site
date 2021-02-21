@@ -68,8 +68,9 @@ a {
 }
 
 .container {
-  max-width: 1920px;
+  max-width: 2070px;
   margin: 0 auto;
+  padding: 0px 75px;
 }
 
 .section-container {
@@ -110,6 +111,11 @@ a {
   color: #CACACA;
 }
 
+.container-header {
+  -webkit-box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+}
+
 .header-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -121,8 +127,6 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #ffffff;
-  -webkit-box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
 }
 
 .header-content__logo {
@@ -184,7 +188,8 @@ a {
   padding-bottom: 92px;
   background: url("../img/header/low-angle-photo-of-balconies-2462015 1.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 
 .section-solution-content__title {
@@ -201,7 +206,7 @@ a {
 .section-solution-content__description {
   margin-left: -2px;
   width: 800px;
-  margin-bottom: 101px;
+  margin-bottom: 97px;
   font-weight: bold;
   font-size: 23.45px;
   line-height: 29px;
@@ -264,7 +269,7 @@ a {
 }
 
 .row-column-left-bottom {
-  margin-top: 449px;
+  margin-top: 447px;
   background: rgba(0, 0, 0, 0.5);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -280,8 +285,8 @@ a {
 .row-column-left-bottom__description {
   width: 551px;
   padding-left: 54px;
-  padding-top: 36px;
-  padding-bottom: 42px;
+  padding-top: 34px;
+  padding-bottom: 44px;
   margin-right: 76px;
   font-weight: 700;
   font-size: 16px;
@@ -367,7 +372,7 @@ a {
 
 .section-how-we-works__header {
   letter-spacing: 0.3px;
-  padding-bottom: 50.0px;
+  padding-bottom: 47.0px;
   margin-left: -2px;
 }
 
@@ -376,7 +381,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-  margin-bottom: 47px;
+  margin-bottom: 45px;
 }
 
 .section-how-we-works-nav-list__item {
@@ -413,7 +418,7 @@ a {
   padding-right: 120px;
   font-size: 16px;
   line-height: 32px;
-  margin-bottom: 65px;
+  margin-bottom: 60px;
 }
 
 .section-how-we-works-row-left-column__orange-button {
@@ -453,20 +458,7 @@ a {
 
 .section-questions__header {
   letter-spacing: 0.3px;
-  padding-bottom: 32.0px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
-}
-
-.section-questions__header:after {
-  display: block;
-  content: '';
-  height: 1px;
-  margin-left: 2px;
-  margin-right: 2px;
-  margin-top: 38px;
-  background: #CACACA;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+  padding-bottom: 38.0px;
 }
 
 .section-questions-list {
@@ -474,24 +466,17 @@ a {
 }
 
 .section-questions-list__item {
-  padding-bottom: 31.0px;
+  padding-top: 32px;
+  padding-bottom: 29px;
   padding-left: 2px;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid #CACACA;
 }
 
-.section-questions-list__item:after {
-  display: block;
-  content: '';
-  height: 1px;
-  margin-left: 0px;
-  margin-right: 2px;
-  margin-top: 30px;
-  background: #CACACA;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+.section-questions-list__item:first-child {
+  border-top: 1px solid #CACACA;
 }
 
 .section-questions-list-item__text {
@@ -517,13 +502,11 @@ a {
   content: '';
   background-image: url("../img/questions/+х.svg");
   background-repeat: no-repeat;
-  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .container-footer {
   background: #222222;
-  margin-top: 70px;
+  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -536,7 +519,7 @@ a {
 }
 
 .container-footer__column_select-action-block {
-  padding-top: 47px;
+  padding-top: 48px;
   padding-left: 74px;
 }
 
@@ -563,7 +546,7 @@ a {
 }
 
 .footer-nav-list__item {
-  padding-bottom: 15px;
+  padding-bottom: 14px;
 }
 
 .footer-nav-list-item {

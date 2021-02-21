@@ -60,8 +60,9 @@ a {
   text-decoration: none;
  }
 .container {
-  max-width: 1920px;
+  max-width: 2070px;
   margin: 0 auto;
+  padding: 0px 75px;
 }
 .section-container {
   max-width: 1770px;
@@ -96,12 +97,15 @@ a {
 }
 
 // header
+.container-header {
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+}
+
 .header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #ffffff;
-  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
 }
 .header-content__logo {
   margin-left: 74px;
@@ -154,7 +158,9 @@ align-items: center;
   padding-bottom: 92px;
   background: url('../img/header/low-angle-photo-of-balconies-2462015\ 1.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
+  //background-size: contain;
+  background-size: cover;
+  background-position: center;
 		&__title {
       margin-top: -3px;
       margin-left: -2px;
@@ -168,7 +174,7 @@ align-items: center;
 		&__description {
       margin-left: -2px;
       width: 800px;
-      margin-bottom: 101px;
+      margin-bottom: 97px;
       font-weight: bold;
       font-size: 23.45px;
       line-height: 29px;
@@ -218,7 +224,7 @@ align-items: center;
   background-size: cover;
 }
 .row-column-left-bottom {
-  margin-top: 449px;
+  margin-top: 447px;
   background: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
@@ -226,8 +232,8 @@ align-items: center;
 		&__description {
       width: 551px;
       padding-left: 54px;
-      padding-top: 36px;
-      padding-bottom: 42px;
+      padding-top: 34px;
+      padding-bottom: 44px;
       margin-right: 76px;
       font-weight: 700;
       font-size: 16px;
@@ -304,14 +310,14 @@ align-items: center;
   padding-top: 98px;
 		&__header {
       letter-spacing: 0.3px;
-      padding-bottom: 50.0px;
+      padding-bottom: 47.0px;
       margin-left: -2px;
 		}
 }
 .section-how-we-works-nav-list {
   display: flex;
   list-style: none;
-  margin-bottom: 47px;
+  margin-bottom: 45px;
   &__item {padding-left: 2px;
     font-size: 18px;
     line-height: 22px;
@@ -338,7 +344,7 @@ align-items: center;
       padding-right: 120px;
       font-size: 16px;
       line-height: 32px;
-      margin-bottom: 65px;
+      margin-bottom: 60px;
 		}
 
 		&__orange-button {
@@ -374,41 +380,24 @@ align-items: center;
   padding-left: 3px;
 		&__header {
       letter-spacing: 0.3px;
-      padding-bottom: 32.0px;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+      padding-bottom: 38.0px;
 		}
-    &__header:after {
-      display: block;
-      content:'';
-      height: 1px;
-      margin-left: 2px;
-      margin-right: 2px;
-      margin-top: 38px;
-      background: #CACACA;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-    }
-
 }
+
 .section-questions-list {
   list-style: none;
-		&__item {
-      padding-bottom: 31.0px;
-      padding-left: 2px;
-      font-weight: 700;
-      font-size: 24px;
-      line-height: 32px;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-		}
-    &__item:after {
-      display: block;
-      content:'';
-      height: 1px;
-      margin-left: 0px;
-      margin-right: 2px;
-      margin-top: 30px;
-      background: #CACACA;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-    }
+  &__item {
+    padding-top: 32px;
+    padding-bottom: 29px;
+    padding-left: 2px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    border-bottom: 1px solid #CACACA;
+  }
+  &__item:first-child {
+    border-top: 1px solid #CACACA;
+  }
 }
 
 .section-questions-list-item {
@@ -429,18 +418,17 @@ align-items: center;
     content:'';
     background-image: url('../img/questions/+х.svg');
     background-repeat: no-repeat;
-    filter: drop-shadow( 0px 4px 4px rgba(0, 0, 0, 0.25) );
   }
 }
 // footer /////////////////////////////////////////////////////////////////
 .container-footer {
   background: #222222;
-  margin-top: 70px;
+  margin-top: 100px;
   display: flex;
 		&__column {
         flex: 1 1 30%;
 			&_select-action-block {
-        padding-top: 47px;
+        padding-top: 48px;
         padding-left: 74px;
 			}
 			&_application-block {
@@ -470,7 +458,7 @@ align-items: center;
 }
 .footer-nav-list {
 		&__item {
-      padding-bottom: 15px;
+      padding-bottom: 14px;
 		}
 }
 
