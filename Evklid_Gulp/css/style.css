@@ -130,8 +130,8 @@ a {
 }
 
 .header-content__logo {
-  margin-left: 74px;
-  margin-top: 9px;
+  margin-left: 1px;
+  margin-top: 9.5px;
   margin-bottom: 11px;
 }
 
@@ -176,7 +176,7 @@ a {
   -webkit-transform: translateY(2px);
       -ms-transform: translateY(2px);
           transform: translateY(2px);
-  margin-right: 86px;
+  margin-right: 10px;
   width: 28px;
   height: 28px;
   background: url("../img/header/search.svg") center center no-repeat transparent;
@@ -233,7 +233,7 @@ a {
 .section-about-us__description {
   width: 1235px;
   line-height: 32px;
-  margin-bottom: 43px;
+  margin-bottom: 47px;
 }
 
 .section-about-us__description_tultip {
@@ -372,7 +372,7 @@ a {
 
 .section-how-we-works__header {
   letter-spacing: 0.3px;
-  padding-bottom: 47.0px;
+  padding-bottom: 48.0px;
   margin-left: -2px;
 }
 
@@ -410,7 +410,7 @@ a {
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-  margin-bottom: 2px;
+  margin-bottom: 7px;
 }
 
 .section-how-we-works-row-left-column__article {
@@ -418,7 +418,7 @@ a {
   padding-right: 120px;
   font-size: 16px;
   line-height: 32px;
-  margin-bottom: 60px;
+  margin-bottom: 62px;
 }
 
 .section-how-we-works-row-left-column__orange-button {
@@ -523,19 +523,19 @@ a {
 
 .container-footer__column_select-action-block {
   padding-top: 48px;
-  padding-left: 74px;
+  padding-left: 0px;
 }
 
 .container-footer__column_application-block {
-  padding-top: 56px;
-  padding-left: 30px;
+  padding-top: 58px;
+  padding-left: 9px;
   letter-spacing: 0.35px;
 }
 
 .container-footer__column_description-block {
   padding-top: 127px;
-  padding-left: 201px;
-  padding-right: 85px;
+  padding-left: 227px;
+  padding-right: 5px;
 }
 
 .select-action-block__nav-list {
@@ -549,7 +549,7 @@ a {
 }
 
 .footer-nav-list__item {
-  padding-bottom: 14px;
+  padding-bottom: 15px;
 }
 
 .footer-nav-list-item {
@@ -609,7 +609,7 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-right: 30px;
+  padding-right: 10px;
 }
 
 .footer-application-block-form__user-name {
@@ -642,7 +642,7 @@ a {
   padding-top: 23px;
   padding-bottom: 93px;
   padding-left: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   margin-left: 3px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -684,8 +684,8 @@ a {
 .footer-application-checkbox-label::before {
   display: inline-block;
   content: '';
-  margin-left: 2px;
-  margin-right: 4px;
+  margin-left: 0px;
+  margin-right: 3px;
   display: inline-block;
   width: 11px;
   height: 11px;
